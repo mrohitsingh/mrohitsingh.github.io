@@ -40,7 +40,7 @@ const Header = () => {
               <li>
                 <a href="#contact">contact</a>
               </li>
-              <li>
+              <li className="li-btn">
                 <button className="home-btn">HIRE ME</button>
               </li>
             </ul>

@@ -17,6 +17,11 @@ header .logo img {
     height: 100%;
 }
 
+header ul {
+    align-items: center;
+    margin-bottom: 0;
+}
+
 header ul li {
     margin-left: 30px;
 }
@@ -30,10 +35,11 @@ header ul li a {
 
 header ul li a:hover {
     color: #ff014f;
+    transform: translateY(6px);
 }
 
 .home-btn {
-    padding: 18px 25px;
+    padding: 13px 18px;
     border-radius: 6px;
     transition: 0.3s all ease;
     cursor: pointer;
@@ -49,6 +55,7 @@ header ul li a:hover {
 .home-btn:hover {
     background: #ff014f;
     color: white;
+    transform: translateY(-6px);
 }
 
 .open {
@@ -97,18 +104,21 @@ header ul li a:hover {
         text-transform: uppercase;
         line-height: 70px;
     }
+    .li-btn {
+        line-height: 30px;
+    }
     header .link {
         display: none;
     }
     .close,
     .open {
         position: absolute;
-        padding: 8px 15px;
+        padding: 7px 12px;
         top: 15px;
         right: 20px;
         color: #ff014f;
         display: block;
-        font-size: 35px;
+        font-size: 23px;
         z-index: 999;
     }
     .close {
@@ -119,9 +129,9 @@ header ul li a:hover {
         color: #ff014f;
         border-radius: 50%;
         padding: 0;
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
     }
     .header.active {
         height: 10vh;

@@ -1,0 +1,129 @@
+.hero {
+    position: relative;
+}
+
+.hero h3 {
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: #ff014f;
+}
+
+.hero h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+
+.hero h2 span {
+    color: black;
+}
+
+.hero p {
+    color: #878e99;
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.hero_btn {
+    margin-top: 10%;
+}
+
+.hero_btn h4 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #43474b;
+    font-size: 15px;
+    margin: 12px 0 12px 0;
+}
+
+.hero_btn button {
+    margin: 8px 8px 8px 8px;
+    width: 70px;
+}
+
+.hero_btn i {
+    font-size: 20px;
+}
+
+.hero_btn button img {
+    width: 20px;
+    height: 20px;
+}
+
+.hero .left {
+    margin-right: 10%;
+}
+
+.hero .right {
+    width: 40%;
+    position: relative;
+}
+
+.hero .right_img {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+}
+
+.hero .right_img:hover {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #fff, -4px -4px 8px #cbcbcb;
+    transform: translateY(-6px);
+}
+
+.hero .right_img img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 795px) {
+    .hero .left {
+        width: 100%;
+    }
+    .hero .right {
+        width: 100%;
+        height: 50vh;
+    }
+    .hero .f_flex {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .hero h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .hero h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .hero .right_img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-top: 5px;
+    }
+    .hero .right_img img {
+        width: 90%;
+        height: 95%;
+    }
+    .hero_btn button {
+        width: 50px;
+    }
+    .hero_btn {
+        margin-top: 4%;
+    }
+}
